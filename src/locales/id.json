@@ -1,0 +1,113 @@
+{
+  "nav": {
+    "home": "Beranda",
+    "explore": "Jelajahi",
+    "map": "Peta",
+    "best": "Terbaik"
+  },
+  "hero": {
+    "badge": "Rekomendasi Café",
+    "title": "Temuin Café",
+    "titleHighlight": "Seru",
+    "titleLocation": "di Bandung",
+    "subtitle": "Dari yang cozy buat ngerjain tugas, sampai yang instagramable buat konten. Semua ada di sini.",
+    "searchPlaceholder": "Cari café... coba 'dago', 'wifi', atau 'outdoor'",
+    "clear": "Hapus",
+    "hints": "Coba cari:",
+    "hint1": "wifi dago",
+    "hint2": "instagramable",
+    "hint3": "outdoor"
+  },
+  "mood": {
+    "title": "Cari Café Sesuai",
+    "titleHighlight": "Mood",
+    "subtitle": "Lagi pengen suasana kayak gimana? Pilih aja mood kamu.",
+    "clearSelection": "Hapus pilihan",
+    "moods": {
+      "focus": "Buat Kerja",
+      "focusDesc": "WiFi kenceng, suasana tenang",
+      "chill": "Nongkrong",
+      "chillDesc": "Tempat asik buat kumpul",
+      "instagram": "Foto-foto",
+      "instagramDesc": "Spot instagramable",
+      "outdoor": "Outdoor",
+      "outdoorDesc": "Udara segar, ruang terbuka",
+      "coffee": "Pecinta Kopi",
+      "coffeeDesc": "Kopi enak, kualitas oke"
+    }
+  },
+  "map": {
+    "title": "Lokasi Café",
+    "titleHighlight": "di Peta",
+    "subtitle": "Lihat semua lokasi café di Bandung. Klik marker buat lihat detail.",
+    "loading": "Memuat peta...",
+    "legend": "Lokasi Café",
+    "clickMarker": "Klik untuk detail"
+  },
+  "trending": {
+    "badge": "Lagi Hot",
+    "title": "Café yang Lagi",
+    "titleHighlight": "Tren",
+    "subtitle": "Café paling populer berdasarkan rating dan review pengunjung."
+  },
+  "explore": {
+    "title": "Jelajahi Semua",
+    "titleHighlight": "Café",
+    "subtitle": "Lihat semua",
+    "subtitleCount": "café di Bandung",
+    "searchPlaceholder": "Cari nama café, area, atau alamat...",
+    "sortBy": "Urutkan",
+    "rating": "Rating",
+    "name": "Nama",
+    "area": "Area",
+    "filters": "Filter:",
+    "allAreas": "Semua Area",
+    "allMoods": "Semua Mood",
+    "clear": "Hapus",
+    "results": "dari",
+    "cafes": "café",
+    "noResults": "Café nggak ditemukan",
+    "noResultsDesc": "Coba ubah pencarian atau filter kamu.",
+    "clearAll": "Hapus semua filter"
+  },
+  "cafeDetail": {
+    "back": "Kembali",
+    "about": "Tentang",
+    "amenities": "Fasilitas",
+    "location": "Lokasi",
+    "mapView": "Lihat peta di beranda",
+    "information": "Informasi",
+    "rating": "Rating",
+    "priceRange": "Kisaran Harga",
+    "area": "Area",
+    "hours": "Jam Buka",
+    "openToday": "Buka Hari Ini",
+    "directions": "Petunjuk Arah",
+    "searchOnline": "Cari di Google",
+    "amenityWifi": "WiFi",
+    "amenityOutdoor": "Outdoor",
+    "amenityWork": "Ramah Kerja",
+    "amenityPhoto": "Instagrammable"
+  },
+  "footer": {
+    "description": "Temukan café terbaik di Bandung buat nongkrong, kerja, atau sekadar ngopi santai.",
+    "quickLinks": "Menu",
+    "features": "Fitur",
+    "contact": "Kontak",
+    "feature1": "Rekomendasi Café",
+    "feature2": "Peta Interaktif",
+    "feature3": "Filter Mood",
+    "feature4": "Update Terbaru",
+    "location": "Bandung, Jawa Barat",
+    "email": "hello@cafeuniverse.com",
+    "privacy": "Kebijakan Privasi",
+    "terms": "Syarat Layanan",
+    "copyright": "All rights reserved."
+  },
+  "notFound": {
+    "title": "Café Nggak Ditemukan",
+    "description": "Café yang kamu cari nggak ada atau udah dihapus.",
+    "backHome": "Ke Beranda",
+    "explore": "Jelajahi Café"
+  }
+}

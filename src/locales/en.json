@@ -1,0 +1,113 @@
+{
+  "nav": {
+    "home": "Home",
+    "explore": "Explore",
+    "map": "Map",
+    "best": "Best"
+  },
+  "hero": {
+    "badge": "Café Recommendations",
+    "title": "Find Great",
+    "titleHighlight": "Cafés",
+    "titleLocation": "in Bandung",
+    "subtitle": "From cozy work spots to instagramable cafes. Everything you need is here.",
+    "searchPlaceholder": "Search cafés... try 'dago', 'wifi', or 'outdoor'",
+    "clear": "Clear",
+    "hints": "Try:",
+    "hint1": "wifi dago",
+    "hint2": "instagramable",
+    "hint3": "outdoor"
+  },
+  "mood": {
+    "title": "Find Cafés by",
+    "titleHighlight": "Mood",
+    "subtitle": "What's your vibe? Pick a mood and we'll find your spot.",
+    "clearSelection": "Clear selection",
+    "moods": {
+      "focus": "Get Work Done",
+      "focusDesc": "Quiet spaces with great WiFi",
+      "chill": "Hang Out",
+      "chillDesc": "Chill spots for groups",
+      "instagram": "Photos",
+      "instagramDesc": "Picture-perfect locations",
+      "outdoor": "Outdoor",
+      "outdoorDesc": "Fresh air, open spaces",
+      "coffee": "Coffee Lover",
+      "coffeeDesc": "Premium coffee quality"
+    }
+  },
+  "map": {
+    "title": "Café Locations",
+    "titleHighlight": "on Map",
+    "subtitle": "Browse all café spots in Bandung. Click markers for details.",
+    "loading": "Loading map...",
+    "legend": "Café Location",
+    "clickMarker": "Click for details"
+  },
+  "trending": {
+    "badge": "Trending Now",
+    "title": "Popular Cafés",
+    "titleHighlight": "in Bandung",
+    "subtitle": "Most loved cafés based on ratings and reviews."
+  },
+  "explore": {
+    "title": "Explore All",
+    "titleHighlight": "Cafés",
+    "subtitle": "Browse all",
+    "subtitleCount": "cafés in Bandung",
+    "searchPlaceholder": "Search by name, area, or address...",
+    "sortBy": "Sort by",
+    "rating": "Rating",
+    "name": "Name",
+    "area": "Area",
+    "filters": "Filters:",
+    "allAreas": "All Areas",
+    "allMoods": "All Moods",
+    "clear": "Clear",
+    "results": "of",
+    "cafes": "cafés",
+    "noResults": "No cafés found",
+    "noResultsDesc": "Try adjusting your search or filters.",
+    "clearAll": "Clear all filters"
+  },
+  "cafeDetail": {
+    "back": "Back",
+    "about": "About",
+    "amenities": "Amenities",
+    "location": "Location",
+    "mapView": "View map on homepage",
+    "information": "Information",
+    "rating": "Rating",
+    "priceRange": "Price Range",
+    "area": "Area",
+    "hours": "Hours",
+    "openToday": "Open Today",
+    "directions": "Get Directions",
+    "searchOnline": "Search on Google",
+    "amenityWifi": "WiFi",
+    "amenityOutdoor": "Outdoor",
+    "amenityWork": "Work Friendly",
+    "amenityPhoto": "Instagrammable"
+  },
+  "footer": {
+    "description": "Discover the best cafés in Bandung for work, hangouts, or just great coffee.",
+    "quickLinks": "Menu",
+    "features": "Features",
+    "contact": "Contact",
+    "feature1": "Café Recommendations",
+    "feature2": "Interactive Map",
+    "feature3": "Mood Filters",
+    "feature4": "Latest Updates",
+    "location": "Bandung, West Java",
+    "email": "hello@cafeuniverse.com",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "copyright": "All rights reserved."
+  },
+  "notFound": {
+    "title": "Café Not Found",
+    "description": "The café you're looking for doesn't exist or has been removed.",
+    "backHome": "Back to Home",
+    "explore": "Explore Cafés"
+  }
+}

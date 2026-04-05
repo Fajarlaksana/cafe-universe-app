@@ -3,33 +3,29 @@
 <br/>
 
 ```
-  🔐  S E C U R E O P S
+  ☕  C A F É   U N I V E R S E
 ```
 
-### *Monitor. Detect. Respond — Login Attack Monitoring Dashboard for Security Operations.*
+### *Discover the best cafés in Bandung — beautifully curated, elegantly presented.*
 
 <br/>
 
-[![React](https://img.shields.io/badge/React-Vite-61DAFB?style=flat-square&logo=react&logoColor=white)](https://react.dev/)
-[![Node.js](https://img.shields.io/badge/Node.js-Express-339933?style=flat-square&logo=nodedotjs&logoColor=white)](https://nodejs.org/)
-[![Socket.io](https://img.shields.io/badge/Socket.io-Real--time-010101?style=flat-square&logo=socketdotio&logoColor=white)](https://socket.io/)
-[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-336791?style=flat-square&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
-[![Redis](https://img.shields.io/badge/Redis-Cache-DC382D?style=flat-square&logo=redis&logoColor=white)](https://redis.io/)
-[![Docker](https://img.shields.io/badge/Docker-Compose-2496ED?style=flat-square&logo=docker&logoColor=white)](https://www.docker.com/)
-[![Wazuh](https://img.shields.io/badge/Wazuh-SIEM-00A8E0?style=flat-square)](https://wazuh.com/)
+[![Next.js](https://img.shields.io/badge/Next.js-15-000000?style=flat-square&logo=nextdotjs&logoColor=white)](https://nextjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.x-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE)
-[![Status](https://img.shields.io/badge/Status-MVP_In_Progress-7C3AED?style=flat-square)]()
+[![Status](https://img.shields.io/badge/Status-UI_Complete-4A7C59?style=flat-square)]()
 [![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-orange?style=flat-square)]()
 
 <br/>
 
-> 🔐 SecureOps adalah SOC dashboard berbasis web yang berfokus pada Login Attack Monitoring.
-> Dibangun dengan React, Node.js, dan Socket.io — mendeteksi Brute Force, Credential Stuffing,
-> Password Spray, dan Impossible Travel secara real-time.
+> ☕ Café Universe is a modern café discovery and recommendation web app focused on Bandung, Indonesia.
+> Built with Next.js, TypeScript, and Tailwind CSS — featuring a curated café list, smart filtering,
+> and an elegant UI. Open for contributions and actively seeking Google Places API integration.
 
 <br/>
 
-[🚀 Live Demo](#) · [📖 Dokumentasi](#-daftar-isi--table-of-contents) · [🐛 Report Bug](mailto:fajarlaksana13@gmail.com) · [✨ Request Feature](mailto:fajarlaksana13@gmail.com)
+[🚀 Live Demo](#) · [📖 Dokumentasi](#-tentang-proyek--about) · [🐛 Report Bug](mailto:fajarlaksana13@gmail.com) · [✨ Request Feature](mailto:fajarlaksana13@gmail.com)
 
 <br/>
 
@@ -39,8 +35,7 @@
 
 ## 📸 Screenshot
 
-> <img width="1905" height="900" alt="image" src="https://github.com/user-attachments/assets/5b9b4be1-3455-4e2c-bf8c-554a83fce60d" />
-
+><img width="1912" height="890" alt="Screenshot 2026-03-16 045412" src="https://github.com/user-attachments/assets/988ffceb-b692-4336-a289-7eb77339beb1" />
 
 <br/>
 
@@ -50,14 +45,12 @@
 - [Status Proyek / Project Status](#-status-proyek--project-status)
 - [Tech Stack](#-tech-stack)
 - [Fitur / Features](#-fitur--features)
-- [Arsitektur / Architecture](#-arsitektur--architecture)
-- [Database Schema](#-database-schema)
 - [Memulai / Getting Started](#-memulai--getting-started)
 - [Struktur Proyek / Project Structure](#-struktur-proyek--project-structure)
-- [API Endpoints](#-api-endpoints)
 - [Roadmap](#-roadmap)
 - [Catatan Developer / Developer Notes](#-catatan-developer--developer-notes)
 - [Kontribusi / Contributing](#-kontribusi--contributing)
+- [Harapan Kedepannya / Future Expectations](#-harapan-kedepannya--future-expectations)
 - [Kontak / Contact](#-kontak--contact)
 - [Lisensi / License](#-lisensi--license)
 
@@ -69,11 +62,11 @@
 
 **🇮🇩 Bahasa Indonesia**
 
-**SecureOps** adalah aplikasi SOC dashboard berbasis web yang berfokus pada **Login Attack Monitoring**. Sistem ini dirancang untuk membantu security analyst dan administrator memonitor aktivitas login mencurigakan secara real-time, mendeteksi brute force attack, credential stuffing, password spray, dan suspicious login patterns dari berbagai sumber log.
+**Café Universe** adalah platform rekomendasi café berbasis web yang dirancang khusus untuk kota **Bandung, Indonesia**. Proyek ini lahir dari keinginan untuk membantu siapa pun — mulai dari warga lokal hingga wisatawan — menemukan café terbaik yang sesuai dengan kebutuhan mereka, berdasarkan suasana, lokasi, dan preferensi pribadi.
 
 **🇬🇧 English**
 
-**SecureOps** is a web-based SOC dashboard focused on **Login Attack Monitoring**. The system is designed to help security analysts and administrators monitor suspicious login activity in real-time, detecting brute force attacks, credential stuffing, password spray, and suspicious login patterns from multiple log sources.
+**Café Universe** is a web-based café recommendation platform designed specifically for **Bandung, Indonesia**. This project was born from the desire to help anyone — from locals to tourists — discover the best cafés that match their needs, based on ambiance, location, and personal preference.
 
 <br/>
 
@@ -81,29 +74,25 @@
 
 ## 📋 Status Proyek / Project Status
 
-**🇮🇩** Proyek ini sedang dalam tahap pengembangan **MVP (v1.0)**. Fitur utama dashboard dan detection engine sedang dibangun. Fokus pengembangan berikutnya setelah MVP adalah **integrasi backend nyata dengan PostgreSQL, Redis, dan Wazuh**.
+**🇮🇩** Proyek ini telah mencapai tahap penyelesaian tampilan **(UI/UX)**. Secara visual dan struktur halaman, website sudah siap digunakan dan dikembangkan lebih lanjut. Fokus pengembangan berikutnya bukan lagi pada desain, tetapi pada **penguatan sistem data dan integrasi API**.
 
-**🇬🇧** This project is currently in **MVP (v1.0)** development. Core dashboard features and detection engine are being built. The next development focus after MVP is **real backend integration with PostgreSQL, Redis, and Wazuh**.
+**🇬🇧** This project has reached the stage where the **UI/UX design is fully completed**. The visual layout and page structure are finalized. Future development should focus less on design and more on **data systems and API integration**.
 
 <br/>
 
 | Komponen / Component | Status |
 |---|---|
-| Authentication & Protected Routes | ✅ Selesai / Done |
-| Dashboard Utama + Stat Cards | ✅ Selesai / Done |
-| Login Trend Chart | ✅ Selesai / Done |
-| Severity Donut Chart | ✅ Selesai / Done |
-| Threat Map | ✅ Selesai / Done |
-| Alerts Management Page | ✅ Selesai / Done |
-| Real-time Socket.io Updates | ✅ Selesai / Done |
-| Mock Data Generator | ✅ Selesai / Done |
-| Basic Brute Force Detection | ✅ Selesai / Done |
-| Wazuh Placeholder Integration | ✅ Selesai / Done |
-| Investigation Panel | ⏳ Belum / Pending |
-| PostgreSQL Persistence | ⏳ Belum / Pending |
-| Redis Sliding Window Detection | ⏳ Belum / Pending |
-| Real Wazuh Integration | ⏳ Belum / Pending |
-| Automatic IP Blocking | ⏳ Belum / Pending |
+| Homepage | ✅ Selesai / Done |
+| Sistem Rekomendasi Café | ✅ Selesai / Done |
+| Komponen UI | ✅ Selesai / Done |
+| Layout & Struktur Halaman | ✅ Selesai / Done |
+| Internationalization (i18n) | ✅ Selesai / Done |
+| Dark / Light Mode | ✅ Selesai / Done |
+| Peta Interaktif (Leaflet.js) | ✅ Selesai / Done |
+| SEO (robots.ts & sitemap.ts) | ✅ Selesai / Done |
+| Google Places API Integration | ⏳ Belum / Pending |
+| Database CRUD Sistem | ⏳ Belum / Pending |
+| Foto & Rating Real-time | ⏳ Belum / Pending |
 
 <br/>
 
@@ -113,19 +102,15 @@
 
 | Layer | Teknologi / Technology |
 |---|---|
-| **Frontend** | [React](https://react.dev/) + [Vite](https://vitejs.dev/), [Tailwind CSS](https://tailwindcss.com/), [Recharts](https://recharts.org/), [Framer Motion](https://www.framer.com/motion/), [Socket.io-client](https://socket.io/) |
-| **Backend** | [Node.js](https://nodejs.org/), [Express](https://expressjs.com/), [Socket.io](https://socket.io/) |
-| **Database** | [PostgreSQL](https://www.postgresql.org/) |
-| **Cache / Detection** | [Redis](https://redis.io/) (sliding window) |
-| **Authentication** | JWT |
-| **SIEM** | [Wazuh REST API](https://wazuh.com/) |
-| **Deployment** | [Docker](https://www.docker.com/) + Docker Compose |
-| **Fonts** | Geist Mono, JetBrains Mono |
-| **Run Mode (dev)** | Mock mode — tanpa DB / without DB |
-| **Run Mode (prod)** | Real mode — PostgreSQL + Redis + Wazuh |
-
-**Login Sources yang didukung / Supported login sources:**
-Linux Server · Windows Endpoint · Website Login · Wazuh Manager · Syslog Server
+| **Framework** | [Next.js 15](https://nextjs.org/) (App Router + SSG) |
+| **Language** | [TypeScript](https://www.typescriptlang.org/) |
+| **Styling** | [Tailwind CSS](https://tailwindcss.com/) |
+| **Map** | [Leaflet.js](https://leafletjs.com/) via `MapComponent` |
+| **i18n** | Custom `TranslationContext` (EN / ID) |
+| **Theme** | Custom `ThemeContext` (Dark / Light) |
+| **Data (saat ini / current)** | Static dataset — `src/data/cafes.ts` (20 cafés) |
+| **Data (planned)** | [Google Places API](https://developers.google.com/maps/documentation/places/web-service) |
+| **Deployment (recommended)** | [Vercel](https://vercel.com/) / [Netlify](https://netlify.com/) |
 
 <br/>
 
@@ -133,96 +118,15 @@ Linux Server · Windows Endpoint · Website Login · Wazuh Manager · Syslog Ser
 
 ## ✨ Fitur / Features
 
-### 🏠 Dashboard Utama / Main Dashboard
-- Stat cards: Total failed logins, successful logins, high severity alerts, attacker IPs
-- Login trend chart (per jam / per hari) dengan filter date range
-- Severity donut chart: Low · Medium · High · Critical
-- Active threats panel & threat trend
-
-### 🗺️ Threat Map
-- Visualisasi lokasi attacker IP di peta dunia / World map visualization of attacker IPs
-- Marker berwarna berdasarkan severity / Color-coded markers by severity
-- Popup detail: IP, negara, kota, ISP, attack type, hit count
-
-### 🚨 Alerts Management
-- Daftar alert dengan severity badge & timestamp / Alert list with severity badge & timestamp
-- Filter berdasarkan status dan severity / Filter by status and severity
-- Actions: **Assign · Investigate · Update Status · Dismiss**
-
-### 🔬 Investigation Panel
-- Detail alert + timeline event terkait / Alert detail + related event timeline
-- Raw event data viewer
-- Comment section untuk analyst / Analyst comment section
-- Status: `New → Acknowledged → Investigating → Resolved → False Positive`
-
-### 🤖 Detection Engine
-
-| Tipe Deteksi / Detection Type | Deskripsi / Description |
-|---|---|
-| **Brute Force** | Failed login berulang dari IP yang sama / Repeated failed logins from same IP |
-| **Credential Stuffing** | Banyak username berbeda dari satu IP / Many different usernames from one IP |
-| **Password Spray** | Satu password dicoba ke banyak akun / One password tried against many accounts |
-| **Impossible Travel** | Login dari lokasi mustahil dalam waktu singkat / Login from impossible location in short time |
-| **Known Bad IP** | IP dari blacklist / TOR exit node / IP from blacklist or TOR exit node |
-
-### 🛡️ Response Engine
-- Auto-block IP jika severity **Critical** / Auto-block IP if severity is Critical
-- Manual block / unblock IP
-- Update blocked status secara real-time / Real-time blocked status updates
-
-### 🔌 Wazuh Integration
-- Connect ke Wazuh REST API & poll authentication logs
-- Sync agent list & tampilkan connection status / Display connection status
-
-<br/>
-
----
-
-## 🏛 Arsitektur / Architecture
-
-**🇮🇩** Alur data dari sumber login hingga tampilan analyst:
-
-**🇬🇧** Data flow from login sources to analyst view:
-
-```
-┌─────────────────┐     ┌──────────────┐     ┌──────────────────────┐
-│  Login Sources  │────▶│    Wazuh     │────▶│  SecureOps Backend   │
-│                 │     │   Manager    │     │  Node.js + Express   │
-│  · Linux Server │     └──────────────┘     └──────────┬───────────┘
-│  · Windows      │                                     │
-│  · Web Login    │                          ┌──────────▼───────────┐
-│  · Syslog       │                          │   Detection Engine   │
-└─────────────────┘                          │  PostgreSQL + Redis  │
-                                             └──────────┬───────────┘
-                                                        │ Socket.io
-                                             ┌──────────▼───────────┐
-                                             │   React Dashboard    │
-                                             │    Analyst View      │
-                                             └──────────────────────┘
-```
-
-<br/>
-
----
-
-## 🗄 Database Schema
-
-### Tables
-
-| Tabel / Table | Deskripsi / Description |
-|---|---|
-| `login_events` | Semua login event dari Wazuh, website, syslog, endpoint / All login events |
-| `alerts` | Alert yang dihasilkan detection engine / Alerts generated by detection engine |
-| `blocked_ips` | IP yang diblok oleh response engine / IPs blocked by response engine |
-| `correlation_rules` | Threshold dan aturan deteksi / Detection thresholds and rules |
-
-### Relationships
-
-```
-login_events  ──▶  alerts       (triggered by)
-alerts        ──▶  blocked_ips  (may block)
-correlation_rules ▶ alerts      (creates)
-```
+- 🔍 **Smart Filtering** — Filter café berdasarkan mood, lokasi, dan fasilitas / Filter cafés by mood, location, and amenities
+- 🗺️ **Peta Interaktif / Interactive Map** — Visualisasi lokasi café menggunakan Leaflet.js
+- 🌙 **Dark / Light Mode** — Tema gelap dan terang yang bisa disesuaikan / Switchable dark and light theme
+- 🌐 **Bilingual (EN / ID)** — Dukungan dua bahasa penuh / Full English and Indonesian language support
+- 📱 **Responsive Design** — Tampilan optimal di semua ukuran layar / Optimized for all screen sizes
+- ⚡ **SSG (Static Site Generation)** — Halaman detail café di-generate secara statis untuk performa terbaik
+- 🔎 **SEO Ready** — `robots.ts` dan `sitemap.ts` sudah tersedia / `robots.ts` and `sitemap.ts` included
+- 📸 **Galeri Foto / Photo Gallery** *(pending — menunggu Google Places API)*
+- ⭐ **Rating & Review** *(pending — menunggu Google Places API)*
 
 <br/>
 
@@ -235,93 +139,52 @@ correlation_rules ▶ alerts      (creates)
 Pastikan sudah menginstal / Make sure you have installed:
 
 - [Node.js](https://nodejs.org/) `>= 18.x`
-- [npm](https://www.npmjs.com/) atau/or [yarn](https://yarnpkg.com/)
-- [Docker](https://www.docker.com/) & Docker Compose *(untuk real mode / for real mode)*
+- [npm](https://www.npmjs.com/) atau/or [yarn](https://yarnpkg.com/) atau/or [pnpm](https://pnpm.io/)
 
 ### Instalasi / Installation
 
 ```bash
 # 1. Clone repository ini / Clone this repository
-git clone https://github.com/Fajarlaksana/secureops.git
+git clone https://github.com/username/cafe-universe.git
 
-# 2. Masuk ke direktori / Navigate to directory
-cd secureops
+# 2. Masuk ke direktori proyek / Navigate to project directory
+cd cafe-universe
 
 # 3. Install dependencies
 npm install
-cd client && npm install && cd ..
+# atau / or
+yarn install
 
-# 4. Setup environment variables
-cp .env.example .env
-
-# 5. Jalankan dalam mock mode (tanpa DB) / Run in mock mode (no DB needed)
-npm run dev:mock
-
-# 6. Buka di browser / Open in browser
+# 4. Jalankan development server / Start development server
+npm run dev
+# atau / or
+yarn dev
 ```
 
-Buka / Open [http://localhost:5173](http://localhost:5173) di browser.
-
-### Default Credentials
-
-```
-Email    : admin@secureops.local
-Password : admin123
-```
-
-> ⚠️ **Penting / Important:** Ganti password default sebelum deploy ke production! / Change the default password before deploying to production!
+Buka / Open [http://localhost:3000](http://localhost:3000) di browser.
 
 ### Environment Variables
 
-Buat file `.env` dari template / Create `.env` from template:
-
-```bash
-cp .env.example .env
-```
+Buat file `.env.local` di root proyek / Create `.env.local` at project root:
 
 ```env
-# App
-NODE_ENV=development
-PORT=3001
-JWT_SECRET=your-secret-key-here
-MOCK_MODE=true
+# Google Places API (opsional — belum diimplementasi / optional — not yet implemented)
+NEXT_PUBLIC_GOOGLE_PLACES_API_KEY=your_api_key_here
 
-# Database (real mode only)
-DATABASE_URL=postgresql://user:password@localhost:5432/secureops
-
-# Redis (real mode only)
-REDIS_URL=redis://localhost:6379
-
-# Wazuh (optional)
-WAZUH_API_URL=https://wazuh-manager:55000
-WAZUH_USERNAME=wazuh-api-user
-WAZUH_PASSWORD=your-wazuh-password
-
-# Frontend
-VITE_API_URL=http://localhost:3001
-VITE_SOCKET_URL=http://localhost:3001
+# App URL
+NEXT_PUBLIC_APP_URL=http://localhost:3000
 ```
+
+> ⚠️ **Catatan / Note:** Google Places API belum diintegrasikan. Tanpa API key, aplikasi tetap berjalan menggunakan data statis dari `src/data/cafes.ts`. /
+> Google Places API is not yet integrated. Without an API key, the app still runs using static data from `src/data/cafes.ts`.
 
 ### Scripts
 
 ```bash
-npm run dev:mock    # Mock mode — tanpa DB / without DB
-npm run dev         # Real mode — dengan DB & Wazuh / with DB & Wazuh
-npm run build       # Production build
-npm run lint        # Run ESLint
-```
-
-### Docker Deployment
-
-```bash
-# Build & start semua services / Build & start all services
-docker compose up -d
-
-# Stop services
-docker compose down
-
-# View logs
-docker compose logs -f backend
+npm run dev       # Development server
+npm run build     # Production build
+npm run start     # Start production server
+npm run lint      # Run ESLint
 ```
 
 <br/>
@@ -331,78 +194,78 @@ docker compose logs -f backend
 ## 📁 Struktur Proyek / Project Structure
 
 ```
-secureops/
+cafe-universe/
 │
-├── 📄 docker-compose.yml          # Full stack deployment
-├── 📄 .env.example                # Environment variables template
-├── 📄 package.json                # Root scripts
+├── 📄 Configuration Files
+│   ├── package.json              # Dependencies & scripts
+│   ├── tsconfig.json             # TypeScript config
+│   ├── tailwind.config.js        # TailwindCSS config
+│   ├── postcss.config.js         # PostCSS config
+│   ├── next.config.js            # Next.js config
+│   ├── .eslintrc.json            # ESLint rules
+│   └── .gitignore                # Git ignore rules
 │
-├── 📂 client/                     # React + Vite frontend
-│   └── src/
-│       ├── 📂 components/
-│       │   ├── dashboard/         # Stat cards, trend chart, donut chart
-│       │   ├── alerts/            # Alert list & management
-│       │   ├── map/               # Threat map (Leaflet / Recharts)
-│       │   ├── investigation/     # Investigation panel, timeline
-│       │   └── ui/                # Shared UI components
-│       ├── 📂 pages/              # Route pages
-│       ├── 📂 hooks/              # Custom React hooks
-│       ├── 📂 lib/                # Socket.io client, API helpers
-│       └── 📂 store/              # State management
+├── 📄 Documentation
+│   ├── README.md                 # Project documentation
+│   └── skills.md                 # Technical skills doc
 │
-└── 📂 server/                     # Node.js + Express backend
-    ├── 📂 routes/                 # API routes
-    ├── 📂 controllers/            # Route controllers
-    ├── 📂 services/
-    │   ├── detection/             # Brute force, stuffing, spray engine
-    │   ├── wazuh/                 # Wazuh API integration
-    │   └── mock/                  # Mock data generator
-    ├── 📂 models/                 # DB models
-    ├── 📂 middleware/             # Auth, validation
-    └── 📂 socket/                 # Socket.io event handlers
+├── 📂 src/
+│   │
+│   ├── 📂 app/                   # Next.js App Router
+│   │   ├── cafes/
+│   │   │   └── [id]/
+│   │   │       └── page.tsx      # Café detail page (SSG)
+│   │   ├── explore/
+│   │   │   └── page.tsx          # Explore all cafés
+│   │   ├── layout.tsx            # Root layout
+│   │   ├── page.tsx              # Homepage
+│   │   ├── loading.tsx           # Loading component
+│   │   ├── not-found.tsx         # 404 page
+│   │   ├── robots.ts             # robots.txt generator
+│   │   └── sitemap.ts            # sitemap.xml generator
+│   │
+│   ├── 📂 components/
+│   │   ├── sections/
+│   │   │   ├── Navbar.tsx        # Navigation bar
+│   │   │   ├── Hero.tsx          # Homepage hero
+│   │   │   ├── MoodSection.tsx   # Mood filter section
+│   │   │   ├── MapSection.tsx    # Map section
+│   │   │   ├── TrendingSection.tsx # Trending cafés
+│   │   │   └── Footer.tsx        # Footer
+│   │   ├── ui/
+│   │   │   ├── button.tsx        # Button component
+│   │   │   ├── card.tsx          # Card component
+│   │   │   └── input.tsx         # Input component
+│   │   ├── CafeCard.tsx          # Café card component
+│   │   ├── CafePageClient.tsx    # Café page client component
+│   │   ├── MapComponent.tsx      # Leaflet map component
+│   │   └── MapWrapper.tsx        # Dynamic import wrapper
+│   │
+│   ├── 📂 contexts/
+│   │   ├── ThemeContext.tsx      # Dark/Light mode context
+│   │   └── TranslationContext.tsx # i18n context
+│   │
+│   ├── 📂 data/
+│   │   └── cafes.ts              # ⚠️ Café data (20 cafés) — static, temporary
+│   │
+│   ├── 📂 lib/
+│   │   └── utils.ts              # cn() utility function
+│   │
+│   ├── 📂 locales/
+│   │   ├── en.json               # English translations
+│   │   └── id.json               # Indonesian translations
+│   │
+│   ├── 📂 styles/
+│   │   └── globals.css           # Global styles + CSS variables
+│   │
+│   └── 📂 types/
+│       └── cafe.ts               # TypeScript interfaces
+│
+├── 📂 public/
+│   └── images/                   # Static images
+│
+└── 📂 .next/                     # Build output (auto-generated)
 ```
-
-<br/>
-
----
-
-## 🔌 API Endpoints
-
-### Auth
-| Method | Endpoint | Description |
-|---|---|---|
-| `POST` | `/api/auth/login` | Login & get JWT token |
-| `POST` | `/api/auth/logout` | Logout |
-| `GET` | `/api/auth/me` | Get current user |
-
-### Dashboard
-| Method | Endpoint | Description |
-|---|---|---|
-| `GET` | `/api/stats` | Summary stats |
-| `GET` | `/api/events/trend` | Login trend chart data |
-| `GET` | `/api/events/severity` | Severity distribution |
-
-### Alerts
-| Method | Endpoint | Description |
-|---|---|---|
-| `GET` | `/api/alerts` | List all alerts |
-| `GET` | `/api/alerts/:id` | Alert detail + timeline |
-| `PATCH` | `/api/alerts/:id/status` | Update alert status |
-| `POST` | `/api/alerts/:id/assign` | Assign to analyst |
-| `POST` | `/api/alerts/:id/comment` | Add comment |
-
-### Blocked IPs
-| Method | Endpoint | Description |
-|---|---|---|
-| `GET` | `/api/blocked-ips` | List blocked IPs |
-| `POST` | `/api/blocked-ips` | Block an IP |
-| `DELETE` | `/api/blocked-ips/:ip` | Unblock an IP |
-
-### Wazuh
-| Method | Endpoint | Description |
-|---|---|---|
-| `GET` | `/api/wazuh/status` | Connection status |
-| `GET` | `/api/wazuh/agents` | Agent list |
 
 <br/>
 
@@ -411,40 +274,39 @@ secureops/
 ## 🗺️ Roadmap
 
 ```
-Phase 1 — MVP v1.0              ████████████████████  ⏳ In Progress
-Phase 2 — Real Backend          ░░░░░░░░░░░░░░░░░░░░  🔜 Planned
-Phase 3 — Enterprise            ░░░░░░░░░░░░░░░░░░░░  🔜 Future
+Phase 1 — UI/UX Design          ████████████████████  ✅ Selesai / Done
+Phase 2 — Data & API            ░░░░░░░░░░░░░░░░░░░░  ⏳ Next Priority
+Phase 3 — Backend & Auth        ░░░░░░░░░░░░░░░░░░░░  🔜 Planned
+Phase 4 — Monetization          ░░░░░░░░░░░░░░░░░░░░  🔜 Planned
 ```
 
-### ⏳ Phase 1 — MVP v1.0 *(In Progress)*
-- [x] Authentication & protected routes
-- [x] Dashboard utama + stat cards
-- [x] Login trend chart
-- [x] Severity donut chart
-- [x] Threat map
-- [x] Alerts page
-- [x] Real-time Socket.io updates
-- [x] Mock data generator
-- [x] Basic brute force detection
-- [x] Wazuh placeholder integration
-- [ ] Investigation panel dengan timeline & comment
-- [ ] Dark mode / Light mode toggle
+### ✅ Phase 1 — UI/UX Design *(Selesai / Completed)*
+- [x] Homepage dengan hero section
+- [x] Sistem rekomendasi café
+- [x] Komponen UI (Card, Button, Input)
+- [x] Peta interaktif dengan Leaflet.js
+- [x] Dark / Light mode
+- [x] Bilingual support (EN / ID)
+- [x] SEO: robots.ts & sitemap.ts
+- [x] SSG untuk halaman detail café
 
-### 🔜 Phase 2 — Real Backend *(Planned)*
-- [ ] Real Wazuh REST API integration
-- [ ] PostgreSQL persistence
-- [ ] Redis-based sliding window detection
-- [ ] Automatic IP blocking (severity Critical)
-- [ ] Investigation comment section
-- [ ] Rule editor UI
+### ⏳ Phase 2 — Data & API *(Prioritas Berikutnya / Next Priority)*
+- [ ] Integrasi Google Places API
+- [ ] Foto café otomatis dari Google
+- [ ] Rating & review real-time
+- [ ] Jam buka & informasi lengkap
+- [ ] Koordinat & peta yang lebih presisi
 
-### 🔜 Phase 3 — Enterprise *(Future)*
-- [ ] Multi-user support & RBAC permissions
-- [ ] Export PDF report
-- [ ] Email / Telegram / Slack notification
-- [ ] Endpoint monitoring
-- [ ] Malware monitoring
-- [ ] Firewall log monitoring
+### 🔜 Phase 3 — Backend & Authentication
+- [ ] User authentication (login / register)
+- [ ] Bookmark / simpan café favorit
+- [ ] Sistem ulasan pengguna
+- [ ] Admin dashboard
+
+### 🔜 Phase 4 — Monetization
+- [ ] Fitur premium untuk pemilik café
+- [ ] Iklan lokal berbasis lokasi
+- [ ] Kemitraan dengan café Bandung
 
 <br/>
 
@@ -452,36 +314,37 @@ Phase 3 — Enterprise            ░░░░░░░░░░░░░░░�
 
 ## 📌 Catatan Developer / Developer Notes
 
-### ⚠️ Status Mode Saat Ini / Current Mode Status
+### ⚠️ Status Data Saat Ini / Current Data Status
 
-**🇮🇩** Saat ini aplikasi berjalan dalam **Mock Mode** — semua data dihasilkan secara otomatis oleh mock data generator tanpa memerlukan database nyata. Ini ideal untuk development dan demo, namun memiliki keterbatasan:
+**🇮🇩** Saat ini data café masih diambil dari file statis sementara `src/data/cafes.ts` yang berisi **20 data café**. Keterbatasannya:
 
-**🇬🇧** The app currently runs in **Mock Mode** — all data is automatically generated by a mock data generator without requiring a real database. This is ideal for development and demos, but has limitations:
+**🇬🇧** Café data is currently retrieved from the static file `src/data/cafes.ts` containing **20 café entries**. Limitations:
 
 | Keterbatasan / Limitation | |
 |---|---|
-| ❌ Data tidak persisten | Data is not persistent — resets on restart |
-| ❌ Detection engine belum real | Detection engine not yet fully real |
-| ❌ Wazuh belum terhubung | Wazuh is not yet connected |
-| ❌ IP blocking belum aktif | IP blocking not yet active |
-| ❌ Investigation panel belum tersedia | Investigation panel not yet available |
+| ❌ Data belum sepenuhnya akurat | Café data is not fully accurate |
+| ❌ Foto café belum tersedia | No café images available |
+| ❌ Tidak ada rating real-time | No real-time ratings |
+| ❌ Jam buka & review belum lengkap | Opening hours & reviews incomplete |
+| ❌ Koordinat detail belum presisi | Precise coordinates missing |
 
 ### 💡 Solusi yang Direkomendasikan / Recommended Solution
 
-**🇮🇩** Untuk menjalankan SecureOps dalam mode produksi nyata, diperlukan:
+**🇮🇩** Integrasi **Google Places API** adalah solusi terbaik. Namun karena **keterbatasan biaya dan funding**, implementasi ini belum dapat dilakukan. Alternatifnya adalah membangun sistem **CRUD database café** untuk input data manual.
 
-**🇬🇧** To run SecureOps in real production mode, the following are required:
+**🇬🇧** Integrating the **Google Places API** is the ideal solution. However, due to **financial constraints and lack of funding**, this has not yet been implemented. An alternative is building a **CRUD café database system** for manual data entry.
 
-| Komponen | Mock Mode | Real Mode |
+| Aspek / Aspect | CRUD Manual | Google Places API |
 |---|---|---|
-| Data persistence | ❌ In-memory | ✅ PostgreSQL |
-| Detection sliding window | ❌ Simplified | ✅ Redis |
-| Login source | ❌ Generated | ✅ Wazuh / Syslog |
-| IP blocking | ❌ Simulated | ✅ Active firewall |
-| Deployment | ✅ `npm run dev:mock` | ✅ Docker Compose |
+| Akurasi Data / Accuracy | ⚠️ Tergantung input | ✅ Real-time & akurat |
+| Foto Café / Photos | ❌ Manual upload | ✅ Otomatis tersedia |
+| Skalabilitas / Scalability | ❌ Terbatas | ✅ Skala besar |
+| Update Data | ❌ Manual | ✅ Otomatis |
+| Biaya / Cost | ✅ Gratis | ⚠️ Berbayar / Paid |
+| Kemudahan Implementasi | ✅ Lebih mudah | ⚠️ Perlu setup API |
 
-> 💡 **Real Wazuh integration tetap menjadi prioritas utama pengembangan selanjutnya.**
-> Real Wazuh integration remains the top priority for the next development phase.
+> 💡 **Integrasi Google Places API tetap menjadi arah pengembangan yang paling direkomendasikan ke depan.**
+> Google Places API integration remains the most recommended direction for future development.
 
 <br/>
 
@@ -489,9 +352,9 @@ Phase 3 — Enterprise            ░░░░░░░░░░░░░░░�
 
 ## 🤝 Kontribusi / Contributing
 
-**🇮🇩** Kontribusi sangat disambut! Proyek ini terbuka untuk siapa saja yang ingin membantu mengembangkan SecureOps.
+**🇮🇩** Kontribusi sangat disambut! Proyek ini terbuka untuk siapa saja yang ingin membantu mengembangkan Café Universe.
 
-**🇬🇧** Contributions are very welcome! This project is open to anyone who wants to help develop SecureOps.
+**🇬🇧** Contributions are very welcome! This project is open to anyone who wants to help develop Café Universe.
 
 ```bash
 # 1. Fork repository ini / Fork this repository
@@ -512,14 +375,27 @@ git push origin feature/nama-fitur
 
 | Prioritas | Task |
 |---|---|
-| 🔴 **High** | Real Wazuh REST API integration |
-| 🔴 **High** | PostgreSQL + Prisma persistence layer |
-| 🔴 **High** | Redis sliding window detection engine |
-| 🟡 **Medium** | Investigation panel (timeline + comment) |
-| 🟡 **Medium** | Automatic IP blocking (severity Critical) |
-| 🟡 **Medium** | Dark mode / Light mode toggle |
-| 🟢 **Low** | Export PDF report |
-| 🟢 **Low** | Email / Telegram / Slack notification |
+| 🔴 **High** | Integrasi Google Places API |
+| 🔴 **High** | CRUD sistem database café (alternatif tanpa API) |
+| 🟡 **Medium** | Unit testing setup |
+| 🟡 **Medium** | Optimasi performa & image |
+| 🟢 **Low** | Tambahan dokumentasi |
+| 🟢 **Low** | Penambahan data café baru ke `src/data/cafes.ts` |
+
+<br/>
+
+---
+
+## 🙏 Harapan Kedepannya / Future Expectations
+
+**🇮🇩** Kami sangat berharap proyek ini dapat dilanjutkan oleh developer lain, mendapatkan kontribusi open-source, atau mendapatkan dukungan untuk pengembangan lebih lanjut.
+
+**🇬🇧** We sincerely hope this project can be continued by other developers, receive open-source contributions, or gain support for further development.
+
+- 🚀 Dilanjutkan oleh developer lain / Be continued by other developers
+- 🚀 Mendapatkan kontribusi open-source / Receive open-source contributions
+- 🚀 Mendapatkan funding / sponsorship / Gain funding or sponsorship
+- 🚀 Integrasi Google Places API / Integrate Google Places API
 
 <br/>
 
@@ -537,8 +413,6 @@ git push origin feature/nama-fitur
 
 📧 [fajarlaksana13@gmail.com](mailto:fajarlaksana13@gmail.com)
 
-🔗 [github.com/Fajarlaksana](https://github.com/Fajarlaksana)
-
 </div>
 
 <br/>
@@ -547,8 +421,13 @@ git push origin feature/nama-fitur
 
 <div align="center">
 
-Dibangun dengan 🔐 untuk Security Operations Centers
+Dibuat dengan ☕ di **Bandung, Indonesia**
 
-*SecureOps — Monitor. Detect. Respond.*
+*Café Universe — Discover. Explore. Enjoy.*
+
+<br/>
+
+*Terima kasih kepada siapa pun yang ingin melanjutkan proyek ini.*
+*Thank you to anyone willing to continue this project.*
 
 </div>

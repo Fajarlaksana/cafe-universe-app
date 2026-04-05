@@ -39,7 +39,8 @@
 
 ## 📸 Screenshot
 
-> *Screenshot akan ditambahkan setelah deployment. / Screenshots will be added after deployment.*
+> <img width="1905" height="900" alt="image" src="https://github.com/user-attachments/assets/5b9b4be1-3455-4e2c-bf8c-554a83fce60d" />
+
 
 <br/>
 
@@ -539,16 +540,6 @@ git push origin feature/nama-fitur
 🔗 [github.com/Fajarlaksana](https://github.com/Fajarlaksana)
 
 </div>
-
-<br/>
-
----
-
-## 📄 Lisensi / License
-
-**🇮🇩** Didistribusikan di bawah lisensi MIT. Lihat [`LICENSE`](LICENSE) untuk informasi lebih lanjut.
-
-**🇬🇧** Distributed under the MIT License. See [`LICENSE`](LICENSE) for more information.
 
 <br/>
 
